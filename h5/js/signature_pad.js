@@ -238,6 +238,7 @@ const content = `
           this._isEmpty = false;
       };
       SignaturePad.prototype.toDataURL = function (type, encoderOptions) {
+          return this._toSVG();
           if (type === void 0) { type = 'image/png'; }
           switch (type) {
               case 'image/svg+xml':
@@ -524,7 +525,8 @@ const content = `
           }
           var footer = '</svg>';
           var data = header + body + footer;
-          return prefix + btoa(data);
+          //return prefix + btoa(data);
+          return data;
       };
       return SignaturePad;
   }());
