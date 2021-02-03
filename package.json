@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YanYuanFE/react-native-signature-canvas.git"
+    "url": "git+https://github.com/netr/react-native-signature-canvas"
   },
   "keywords": [
     "react-native",
@@ -20,12 +20,12 @@
     "canvas",
     "expo"
   ],
-  "author": "YanYuanFE",
+  "author": "netr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YanYuanFE/react-native-signature-canvas/issues"
+    "url": "https://github.com/netr/react-native-signature-canvas/issues"
   },
-  "homepage": "https://github.com/YanYuanFE/react-native-signature-canvas#readme",
+  "homepage": "https://github.com/netr/react-native-signature-canvas#readme",
   "devDependencies": {
     "react-native-webview": "^11.0.3"
   },
